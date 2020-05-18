@@ -61,6 +61,7 @@ import * as Scenes_BanjoTooie from './BanjoTooie/scenes';
 import * as Scenes_SunshineWater from './InteractiveExamples/SunshineWater';
 import * as Scenes_HalfLife2 from './SourceEngine/Scenes_HalfLife2';
 import * as Scenes_TeamFortress2 from './SourceEngine/Scenes_TeamFortress2';
+import * as Scenes_HauntingGround from './HauntingGround/scenes';
 
 import { DroppedFileSceneDesc, traverseFileSystemDataTransfer } from './Scenes_FileDrops';
 
@@ -138,6 +139,7 @@ const sceneGroups = [
     Scenes_GTA.sceneGroup.vc,
     Scenes_GTA.sceneGroup.sa,
     Scenes_HalfLife2.sceneGroup,
+    Scenes_HauntingGround.sceneGroup,
     Scenes_LuigisMansion3D.sceneGroup,
     Scenes_MarioAndSonicAtThe2012OlympicGames.sceneGroup,
     Scenes_MetroidPrime.sceneGroupMP3,
