@@ -61,6 +61,7 @@ import * as Scenes_BanjoTooie from './BanjoTooie/scenes';
 import * as Scenes_SunshineWater from './InteractiveExamples/SunshineWater';
 import * as Scenes_HalfLife2 from './SourceEngine/Scenes_HalfLife2';
 import * as Scenes_TeamFortress2 from './SourceEngine/Scenes_TeamFortress2';
+import * as Scenes_SilentHill3 from './SilentHill3/scenes';
 
 import { DroppedFileSceneDesc, traverseFileSystemDataTransfer } from './Scenes_FileDrops';
 
@@ -144,6 +145,7 @@ const sceneGroups = [
     Scenes_MetroidPrimeHunters.sceneGroup,
     Scenes_PokemonPlatinum.sceneGroup,
     Scenes_Psychonauts.sceneGroup,
+    Scenes_SilentHill3.sceneGroup,
     Scenes_SonicColors.sceneGroup,
     Scenes_StarFoxAdventures.sceneGroup,
     Scenes_SuperMarioOdyssey.sceneGroup,
